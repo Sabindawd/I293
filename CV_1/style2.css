@@ -1,0 +1,19 @@
+h1{
+    color:red;
+}
+
+h3{
+    color:red;
+}
+#ds{
+    border-top : gray solid;
+}
+
+ul{
+    border-top : gray solid;    
+}
+
+ol{
+    border-top : gray solid;
+    list-style-type: upper-roman;
+}
