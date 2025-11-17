@@ -1,0 +1,14 @@
+table{
+    border: 1px solid black;
+}
+th, td{
+    text-align: center;
+    height: 25px;
+    border: 1px solid black;
+}
+.ds{
+    height: 50px;
+}
+.sd{
+    height: 25px;
+}
