@@ -1,0 +1,60 @@
+#nav_bar {
+		/* 1 Bandeau blanc de navigation*/
+		width:100%;
+		background-color:#0f80e8;
+        }
+#nav_bar ul {
+		/* Alignement à gauche*/
+		/* Marges Int. */
+		/* 2 Enlever puces */
+			list-style:none;
+        }
+#nav_bar ul li {            
+          /* 3 Mettre en ligne par branche principale */
+          display:inline-block;
+}
+#nav_bar ul li ul {/* sous menu*/
+		/* 4 Cacher les sous-menus */
+			display:none;
+            position:absolute;
+            top: 46px;
+            width: 200px;
+            padding:0;
+            left:0;
+}
+#nav_bar ul li:hover/* 5 Mouvement souris */ {
+		/* Montrer les sous-menus (souris) */
+		background: #00002d;
+		color: #fff;
+        }
+#nav_bar ul li ul li:hover/* 5 Mouvement souris */ {
+		background: #00002d;
+		}
+#nav_bar ul li:hover/* 5 Mouvement souris */ ul {
+          display: block;        
+        }       
+#nav_bar ul li ul li { 
+		background: #0f80e8; 
+		color: #fff;
+		/* Afficher les sous-menus en blocs */
+		display:block;
+        }
+#nav_bar ul {
+		/* Alignement à gauche*/
+		/* Marges Int. */
+		padding:15px 4px 17px 0;
+		/* 2 Enlever puces */
+			list-style:none;
+        }
+#nav_bar ul li {            
+          /* 3 Mettre en ligne par branche principale */
+          display:inline-block;
+		  /* 8 Positionnement + Marges Int. */
+		  position:relative;
+		  padding:15px 20px;
+		  /* Etc. */
+          cursor:grab;
+          margin-right:-4px;
+          text-align:left;
+       }
+

@@ -1,0 +1,16 @@
+table {
+    border: 0.5px solid black;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.blue{
+    background-color: lightblue;
+}
+.orange{
+    background-color: orange;
+}

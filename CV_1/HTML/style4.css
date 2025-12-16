@@ -1,14 +1,12 @@
-/* ICT-293 - Exercice Navigation - Départ */
+
 body {
-    font-family: Arial;
+    font-family: 'Playfair Display', serif;
     margin: 0px;
     padding: 20px 0px 0px 0px;
-    font-size: 13px;
     text-align: center;
     background: #00002d;
 }
 
-/* Navigation bar background */
 #nav_ul {
     width: 100%;
     background-color: #0f80e8;
@@ -19,7 +17,6 @@ body {
     list-style: none;
 }
 
-/* Main menu items */
 #nav_ul ul li {
     display: inline-block;
     position: relative;
@@ -30,7 +27,6 @@ body {
     background-color: #0f80e8;
 }
 
-/* Submenu container */
 #nav_ul ul li ul {
     display: none;
     position: absolute;
@@ -41,15 +37,13 @@ body {
     border: none;
 }
 
-/* Submenu list items (Frontend, Scripting, Database, System) */
 #nav_ul ul li ul li {
-    display: block;           /* <-- makes them vertical */
+    display: block;           
     background: #0f80e8;
     color: #fff;
     padding: 10px 15px;
 }
 
-/* Hover effects */
 #nav_ul ul li:hover {
     background: #ffa447;
     color: #fff;
@@ -64,11 +58,11 @@ body {
 }
 
 .li_film a {
-        display: block;       /* occupe toute la zone du li */
-        width: 100%;          /* prend toute la largeur */
-        height: 100%;         /* prend toute la hauteur */
+        display: block;       
+        width: 100%;          
+        height: 100%;        
         text-decoration: none;
-        color: inherit;       /* garde la couleur du menu */
-        padding: 15px 20px;   /* déplace le padding du li vers a */
+        color: inherit;       
+        padding: 15px 20px;   
         padding: 0;
         }

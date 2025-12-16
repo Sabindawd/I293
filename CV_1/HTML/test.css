@@ -1,0 +1,63 @@
+.film{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 70%;
+    margin: 40px auto;
+    padding: 10px;
+    gap: 20px;
+    -webkit-text-fill-color: white;
+    font-size: 75px;
+}
+
+.film-img {
+    width: 300px;
+    height: 200px;
+}
+
+.film-img1 {
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    font-size: 33px;
+    text-align: center;
+}
+
+.data{
+    font-size: small;
+    -webkit-text-fill-color: #bfa38d;
+}
+
+
+html{
+    size: 1200px;
+}
+
+#nav_ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color:  #bfa38d;
+    text-align: center;
+    justify-content: center;
+}
+
+#nav_ul  ul  li {
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#nav_ul ul li ul {
+    display: none;
+    position: absolute;
+    flex-direction: row;
+}
+
+
+
+

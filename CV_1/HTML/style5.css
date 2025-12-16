@@ -1,0 +1,66 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #00002d;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #0f80e8;
+}
+
+#nav_ul  ul  li {
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#nav_ul ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #0f80e8;
+    left: 0;
+    flex-direction: column;
+    width: 150px;
+}
+
+#nav_ul ul li:hover ul {
+    display: block;
+}
+
+#nav_ul ul li ul li {
+    padding: 10px;
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #0f80e8;
+    font-size: 35px;
+}
+
+.film{
+    display: flex;
+    flex-direction: row;
+    background-color: #0f80e8;
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.film-img {
+    width: 200px;
+    height: 300px;
+}

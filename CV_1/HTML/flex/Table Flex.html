@@ -1,0 +1,109 @@
+<!-- -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemple de formulaire</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Exemple de formulaire</th>
+            </tr>
+ 
+            <tr>
+                <td class="orange">
+                    <form action="mailto:py01wyc@eduvaud.ch" method="post">
+                        <label for="idusername">Username:</label><br>
+                        <input type="text" id="idusername" name="username" required><br><br>
+ 
+                        <label for="idpwd">Password:</label><br>
+                        <input type="password" id="idpwd" name="pwd"><br><br>
+                    </form>
+                </td>
+                   
+                <td class="blue">
+                        <label for="story">Boîte de texte multiligne:</label>
+                        <br>
+                        <textarea id="story" name="story" rows="5" cols="33">
+Exemple...
+                        </textarea>
+                    </td>
+            </tr>
+            <tr>
+                <td class="blue">      
+                    <label for="value">Liste de choix:</label>
+                    <br>          
+                    <select id="value" name="value" size="3">
+                        <option value="value_1">Valeur liste 1</option>
+                        <option value="value_2" selected>Valeur liste 2</option>
+                        <option value="value_3">Valeur liste 3</option>
+                        <option value="value_4">Valeur liste 4</option>
+                        <option value="value_5">Valeur liste 5</option>
+                    </select>
+                </td>  
+                <td class="orange">
+                    <label for="value">Liste déroulante :</label>
+                    <br>
+                    <select id="value" name="value">
+                        <option value="value_1">Valeur liste 1</option>
+                        <option value="value_2">Valeur liste 2</option>
+                        <option value="value_3">Valeur liste 3</option>
+                        <option value="value_4">Valeur liste 4</option>
+                        <option value="value_5">Valeur liste 5</option>
+                    </select>
+                </td>
+            </tr>  
+            <tr>
+                <td class="orange">
+                    <label for="checkbox">Choissisez la plus belle case :</label>
+                    <br>
+                    <input type="checkbox" id="choice_1" name="choice_1" value="choice_1">
+                    <label for="choice_1">Choix de case à cocher 1</label><br>
+                    <input type="checkbox" id="choice_2" name="choice_2" value="choice_2">
+                    <label for="ch">Choix de case à cocher 2</label><br>
+                    <input type="checkbox" id="choice_3" name="choice_3" value="choice_3" checked>
+                    <label for="choice_3">Choix de case à cocher 3</label><br>
+                </td>
+                <td class="blue">
+                    <label for="radio">Choissisez la plus beau radio:</label>
+                    <br>
+                    <input type="radio" id="option_1" name="options" value="option_1">
+                    <label for="option_1">Bouton radio 1</label><br>
+                    <input type="radio" id="option_2" name="options" value="option_2">
+                    <label for="option_2">Bouton radio 2</label><br>
+                    <input type="radio" id="option_3" name="options" value="option_3">
+                    <label for="option_3">Bouton radio 3</label><br>
+            </tr>      
+            <tr>
+                <td class="blue">
+                <input type="button" value="Salut les formulaires">
+                </td>
+
+                <td class="orange">
+                <input type="button" value="Retour a la case depart">
+                <input type="button" value="Envoyer la sauce">
+                </td>
+            </tr>    
+
+            
+            <tr>
+                <td class="orange">
+                <label for="birthday">Birthday:</label> 
+                <input type="date" id="birthday" name="birthday">
+                </td>
+
+                <td class="blue">
+                <input type="button" value="Parcourir...">
+                <label for="button">Aucun fichier selectionne</label>
+                </td>
+                
+
+
+
+            </tr>
+
+
+        </table>
+    </body>
+</html>

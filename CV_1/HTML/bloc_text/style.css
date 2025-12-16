@@ -1,0 +1,36 @@
+#erbloc{
+    border-bottom: 3px solid green;
+    padding-bottom: 0.5em;
+    border-top: 3px solid green;
+    padding-top: 0.5em;
+    border-left: 3px solid green;
+    padding-left: 0.5em;
+    border-right: 3px solid green;
+    padding-right: 0.5em;
+    border-radius: 20px;
+    background-color: red;
+}
+
+#emebloc{
+    border-bottom: 3px solid green;
+    padding-bottom: 0.5em;
+    border-top: 3px solid green;
+    padding-top: 0.5em;
+    border-left: 3px solid green;
+    padding-left: 0.5em;
+    border-right: 3px solid green;
+    padding-right: 0.5em;
+    border-radius: 20px;
+    background-color: red;
+}
+#fullbloc{
+    border-bottom: 3px solid green;
+    padding-bottom: 2em;
+    border-top: 3px solid green;
+    padding-top: 0.5em;
+    border-left: 3px solid green;
+    padding-left: 0.5em;
+    border-right: 3px solid green;
+    padding-right: 0.5em;
+    border-radius: 20px;
+}
